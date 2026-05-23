@@ -17,6 +17,7 @@ export interface Position {
   current_price: number | null;
   unrealized_pnl: number | null;
   market_value: number | null;
+  side?: string;
 }
 
 export interface Trade {
