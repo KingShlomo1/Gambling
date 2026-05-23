@@ -1,0 +1,17 @@
+{
+  "name": "wealth-agent-worker",
+  "private": true,
+  "scripts": {
+    "build": "wrangler deploy --dry-run",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "hono": "^4.6.0",
+    "@anthropic-ai/sdk": "^0.32.0"
+  },
+  "devDependencies": {
+    "wrangler": "^3.90.0",
+    "@cloudflare/workers-types": "^4.20241106.0",
+    "typescript": "^5.6.0"
+  }
+}
